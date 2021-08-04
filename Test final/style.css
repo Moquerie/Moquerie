@@ -1,0 +1,209 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Style Script', cursive;
+	background-color: #F2C879;
+}
+/*Mobile*/
+/*css titre*/
+h1{
+	text-align: center;
+	margin-top: 50px;
+	font-size: 50px;
+	color: #730220;
+}
+/***********/
+/* css image*/
+img{
+	height: 80%;
+	width: 80%;
+	margin-top: 20px;
+}
+.photo-couronne{
+	display: flex;
+	justify-content: center;
+}
+.photo-pizza{
+	display: flex;
+	justify-content: center;
+}
+/************/
+/*css paragraphe*/
+p{
+	text-align: left;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	font-size: 20px;
+}
+.para-lien{
+	display: flex;
+	font-size: 30px;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+/****************/
+/*css lien*/
+a{
+	display: flex;
+	padding-left: 57px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	font-size: 40px;
+	border: 4mm ridge #467302;
+	transition: 0.7s;
+	text-decoration: none;
+	color: black;
+
+}
+/*********/
+/*css animation du lien*/
+a:hover{
+	border-radius: 5px;
+	background-color: #F27405;
+	color: #467302;
+	transition: 0.7s;
+}
+/***********************/
+/*css tableau*/
+table{
+	border-collapse: collapse;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+td{
+	border: 1px solid black;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.nom-pizza{
+	font-size: 20px;
+	color: #467302;
+}
+.ingredients{
+	color: #730220;
+}
+/*************/
+/*css du formulaire*/
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+input{
+	background-color: white;
+}
+#name{
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+#phone{
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+#date{
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+#number{
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+/*css footer*/
+.email-footer{
+	display: flex;
+	height: 70px;
+	text-align: left;
+	color: #730220;	
+}
+.telephone-footer{
+	display: flex;
+	height: 0px;
+	justify-content: right;
+	color: #730220;
+}
+/************/
+/*******************/
+@media (min-width: 1700px){
+	/*css images ordi*/
+	img{
+		height: 20%;
+		width: 20%;
+	}
+	.photo-pizza{
+		margin-bottom: 50px;
+	}
+
+	/*****************/
+
+	/*css titre ordi*/
+	h1{
+		font-size: 70px;
+	}
+	/****************/
+
+	/*css texte ordi*/
+	p{
+		font-size: 30px;
+		margin-left: 400px;
+		margin-right: 400px;
+	}
+	.para-lien{
+		font-size: 40px;
+	}
+	/****************/
+
+	/*css lien ordi*/
+	a{
+		margin-left: 600px;
+		margin-right: 600px;
+		padding-left: 265px;
+		text-align: center;
+	}
+	/***************/
+
+	/*css tableau carte*/
+	table{
+		display: flex;
+		justify-content: center;
+	}
+	td{
+		font-size: 20px;
+	}
+	.nom-pizza{
+		font-size: 30px;
+	}
+	/*******************/
+	/*css formulaire ordi*/
+	form{
+		display: flex;
+		margin-left: 600px;
+		margin-right: 600px;
+	}
+	input{
+		font-size: 20px;
+		text-align: center;
+	}
+	#name{
+		height: 30px;
+	}
+	#phone{
+		height: 30px;
+	}
+	#date{
+		height: 30px;
+	}
+	#number{
+		height: 30px;
+	}
+	/*********************/
+	
+}
